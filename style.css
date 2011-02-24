@@ -13,7 +13,7 @@ html, body {
   height: 100%;
 
   font-size: 1em; 
-  font-family: sans-serif;
+  font-family: arial, sans-serif;  
 }
 
 div#wrapper  {
@@ -81,25 +81,18 @@ div#header #phone {
 }
 
 div#about {
-	margin-top: 3em;
-	padding-bottom: 3em;
+	margin-top: 2em;
+	padding-bottom: 1em;
+	font-size: 1.3em;
+	color: #111; 
+    font-family: verdana, sans-serif;
+
 }
 
-div#blocks { position: relative; }
-
-div#blocks .float {
-	float: left;
-	width: 290px;
-	padding: 20px;
-	
-	border-right: 1px solid #ccc;
-	border-bottom: 1px solid #ccc;
+div#about p {
+    margin-bottom: 1em;
 }
 
-div#blocks h3 {
-	font-size: 1.5em;
-	color: #333;
-}
 
 div#blocks .text {
 	margin-top: 1em;
