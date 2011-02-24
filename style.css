@@ -122,6 +122,7 @@ div#clients li a {
 .header_2 {
     font-size: 2em;
     margin-bottom: 0.5em;
+    width: 960px;
 }
 
 div#clients > div h2 {
